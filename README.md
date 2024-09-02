@@ -18,17 +18,47 @@ Real-Time Monitoring: Track and visualize utility usage (electricity, water, gas
 
 ### 🛠 Technologies Used
 
-Backend:
+**Backend Technologies**
 
-**Java Spring Framework:** Provides a robust backend with Spring Boot for building and deploying microservices.
-**Hibernate ORM:** Simplifies data handling and interaction with SQL Server databases.
-**SQL Server:** Manages data with advanced features and performance optimizations.
+**Java Spring Framework**
 
-Frontend:
+**Spring Boot:** Simplifies the development and deployment of the backend services with minimal configuration.
+**Main Application Class:** SmartUtilityManagementSystemApplication.java - The entry point for the Spring Boot application, initializing and configuring the application context.
+**Spring Data JPA:** Provides an abstraction for data access and integrates seamlessly with Hibernate for ORM (Object-Relational Mapping).
 
-**React.js:** Creates a responsive and interactive user interface with modern React features.
+**Repositories:**
+**UserRepository.java** - Handles data operations related to user entities.
+**UtilityUsageRepository.java** - Manages database interactions for utility usage records.
 
-Database:
+**Hibernate ORM**
 
-**Schema Management:** schema.sql for defining database structure.
-**Triggers:** triggers.sql for automating data management tasks.
+**Object-Relational Mapping:** Facilitates the mapping of Java objects to database tables, easing database interactions and transactions.
+**Configuration:** application.properties - Contains Hibernate settings and database connection details.
+
+**SQL Server**
+
+**Database Management:** Manages data persistence with advanced relational database features.
+**Schema Definition:** schema.sql - Defines the structure of the database, including tables and relationships.
+**Triggers:** triggers.sql - Contains SQL triggers for automating data management tasks and maintaining data integrity.
+**Initial Data:** data.sql - Populates the database with sample data for initial setup and testing.
+
+**Frontend Technologies**
+
+**React.js**
+User Interface: Builds a responsive and dynamic frontend, enhancing user interaction with modern JavaScript features.
+Source Code: Located in the frontend directory, includes components and state management files that drive the user interface and application behavior.
+
+**Build Tools**
+
+**Maven**
+
+**Build Management:** Handles project dependencies and build processes, ensuring a smooth development workflow.
+**Configuration:** pom.xml - Manages project dependencies, plugins, and build configurations for the backend application.
+
+**npm**
+
+**Frontend Dependency Management:** Manages JavaScript libraries and tools necessary for the frontend development.
+**Configuration:** package.json - Lists frontend dependencies and scripts for building and running the React.js application (if applicable).
+
+
+
