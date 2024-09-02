@@ -1,0 +1,14 @@
+{
+    "name": "smart-utility-management-system",
+    "version": "1.0.0",
+    "dependencies": {
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-google-charts": "^3.0.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build"
+    }
+  }
+  
