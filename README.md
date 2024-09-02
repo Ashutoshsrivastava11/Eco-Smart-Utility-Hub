@@ -7,9 +7,13 @@ this project aims to streamline utility management and optimize resource usage f
 Real-Time Monitoring: Track and visualize utility usage (electricity, water, gas) in real-time with interactive dashboards.
 
 **Advanced Analytics:** Utilize machine learning algorithms to analyze usage patterns and predict future consumption, helping users make informed decisions.
+
 **Automated Alerts:** Receive notifications for anomalies, maintenance schedules, and payment reminders via email or SMS.
+
 **User Management:** Secure user authentication and profile management with role-based access control.
+
 **Scalable Architecture:** Designed for scalability and performance using Spring Boot, Hibernate, and SQL Server.
+
 **Responsive Frontend:** Built with React.js for a dynamic, user-friendly interface.
 
 ### 🛠 Technologies Used
